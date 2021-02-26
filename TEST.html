@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="TEST.css">
+    <script>
+        function FirstName(){
+            var nom = document.getElementById("nom1").value;
+            document.getElementById("push").innerHTML += nom + "<br>";
+        }   
+    </script>
+</head>
+<body>
+    <div id="cot">
+        <label for="">NOM</label>
+        <input type="text"  id="nom1">
+        <br>
+        <label for="">PRENOM</label>
+        <input type="text"  id="prenom1">
+        <br>
+        <label for="">ADRESSE</label>
+        <input type="text" id="adresse1">
+        <br>
+        <label for="">TéLéphone</label>
+        <input type="texte" id="téléphone1">
+        <br>
+        <label for="">EMAIL</label>
+        <input type="text" id="email1">
+        <br>
+        
+        <input type="button" value="INSCRIPTION" onclick="FirstName()">
+        <div id="push" ></div>
+    </div>
+
+</body>
+</html>
+    
