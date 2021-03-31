@@ -7,11 +7,10 @@
     <title>Document</title>
     <style>
     form{
-        background-color:#DDD;
-        width:400px;
-        padding:30px;
-
-    }
+        
+    background-image: url("photo-1553949345-eb786bb3f7ba.jpg")
+}
+    
     </style>
 </head>
 <body>
