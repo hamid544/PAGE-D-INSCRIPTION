@@ -39,8 +39,7 @@ label {
         <input name="prenom" type="text"><br>
         <label for="">Émail:</label><br>
         <input name="email" type="text"><br><br>
-        <label for="">Numéro de téléphone:</label>
-        <input name="nom" type="text"><br>
+      
 
         <button type="submit" style="
     DISPLAY: block;

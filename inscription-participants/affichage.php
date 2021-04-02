@@ -47,6 +47,7 @@ $_SESSION['email'] =  $email;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="affichage.css"/>
     <title>Document</title>
     <style>
     .size{
@@ -61,6 +62,12 @@ $_SESSION['email'] =  $email;
     li {
         text-align:center;
         list-style:none;
+    }
+
+    @media print{
+        button {
+            display:none;
+        }
     }
 
     </style>
@@ -109,6 +116,15 @@ $_SESSION['email'] =  $email;
      </ul> 
      </div>
      </div>
+     <button type="button" onclick="window.print()" style=" 
+    background-color: initial;
+    color: black;
+    width: 109px;
+    height: 34px;
+    FONT-SIZE: 16PX;
+    FONT-FAMILY: monospace;
+    MARGIN: AUTO;
+" >print</button>
 
 </body>
 </html>
